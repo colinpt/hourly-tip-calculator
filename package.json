@@ -1,0 +1,11 @@
+{
+  "name": "hourly-tip-calculator",
+  "version": "1.0.0",
+  "description": "tip calculator for pooled tips",
+  "main": "tipcalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Thrapp",
+  "license": "ISC"
+}
