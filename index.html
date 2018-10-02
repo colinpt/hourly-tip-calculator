@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tip Calculator</title>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css">
+      <link rel="stylesheet" type="text/css" href="tipcalc.css">
+   </head>
+   <body>
+      <h1 class="ui center aligned icon header topmargin">
+         <i class="circular money icon"></i>
+         Tip Calculator
+      </h1>
+      <div class="ui container center aligned segment">
+         <form class="ui form" id="names">
+            <div class= "five fields">
+               <div class="field"><input type="text" placeholder="Name"></div>
+               <div class="field"><input type="text" placeholder="Name"></div>
+               <div class="field"><input type="text" placeholder="Name"></div>
+               <div class="field"><input type="text" placeholder="Name"></div>
+               <div class="field"><input type="text" placeholder="Name"></div>
+            </div>
+         </form>
+         <form class="ui form" id="hours">
+            <div class= "five fields">
+               <div class="field"><input type="number" placeholder="Hours"></div>
+               <div class="field"><input type="number" placeholder="Hours"></div>
+               <div class="field"><input type="number" placeholder="Hours"></div>
+               <div class="field"><input type="number" placeholder="Hours"></div>
+               <div class="field"><input type="number" placeholder="Hours"></div>
+            </div>
+         </form>
+         <form class="ui form" id="money">
+            <div class="five fields">
+               <div class="field"><input type="number" placeholder="Total Money"></div>
+               <div class="field"><input type="number" placeholder="Total Money"></div>
+               <div class="field"><input type="number" placeholder="Total Money"></div>
+               <div class="field"><input type="number" placeholder="Total Money"></div>
+               <div class="field"><input type="number" placeholder="Total Money"></div>
+            </div>
+         </form>
+         <button class="ui centered large blue button" onclick="displayData()">Submit.</button>
+         <div class="ui horizontal divider">
+            Results
+         </div>
+         <p id="results" class="results"></p>
+      </div>
+      <script src="Tipcalc.js"></script>
+   </body>
+</html>
